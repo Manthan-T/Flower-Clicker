@@ -482,6 +482,7 @@ public class FlowerClicker extends BasicGame {
 					play.hitbox.setY(-160);
 					howX = 50;
 					howY = 50;
+					titleY = 750;
 				}
 				
 				if (quit.hitbox.contains(Mouse.getX(), 950 - Mouse.getY())) {
